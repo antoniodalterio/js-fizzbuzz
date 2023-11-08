@@ -9,3 +9,22 @@ COLOR
 HEADER
 ********
 */
+.square {
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: #1389b2;
+  font-weight: 700;
+}
+
+.container h1 {
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #083b4c;
+}
