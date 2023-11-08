@@ -7,7 +7,6 @@ for (let contenutoCaselle = 1; contenutoCaselle <= 100; contenutoCaselle++) {
 
   box.classList.add('m-3');
   box.classList.add('square');
-  box.append(contenutoCaselle);
   contenitoreDiv.append(box);
 
   if (contenutoCaselle % 15 === 0) {
@@ -27,5 +26,7 @@ for (let contenutoCaselle = 1; contenutoCaselle <= 100; contenutoCaselle++) {
     const multiplo3 = contenutoCaselle;
     box.classList.add('bg-success');
     box.append('Fizz');
+  } else {
+    box.append(contenutoCaselle);
   }
 }
