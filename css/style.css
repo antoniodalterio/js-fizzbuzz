@@ -4,9 +4,14 @@ COLOR
 ********
 */
 
+:root {
+  --bg-body: #083b4c;
+  --bg-square: #1389b2;
+}
+
 /* 
 *******
-HEADER
+body
 ********
 */
 .square {
@@ -16,7 +21,7 @@ HEADER
   display: flex;
   align-items: center;
   font-size: 20px;
-  background-color: #1389b2;
+  background-color: var(--bg-square);
   font-weight: 700;
 }
 
@@ -26,5 +31,5 @@ HEADER
 }
 
 body {
-  background-color: #083b4c;
+  background-color: var(--bg-body);
 }
